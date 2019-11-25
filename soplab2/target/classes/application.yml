@@ -1,0 +1,10 @@
+server:
+   port: 8111
+spring:
+   profiles:
+      active: native
+   cloud:
+      config:
+         server:
+            native:
+               searchLocations: file:///Users/patrick/Documents/workspace/SOP/Eclipse_workspace/soplab2/src/main/resources/config/microservice
